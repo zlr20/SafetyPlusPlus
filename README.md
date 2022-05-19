@@ -57,8 +57,11 @@ chmod +x plot.sh
 ### Reference
 
 > https://github.com/sfujim/TD3
+>
 > https://github.com/openai/safety-gym
+>
 > https://github.com/utiasDSL/safe-control-gym
+>
 > https://github.com/SvenGronauer/Bullet-Safety-Gym
 
 
