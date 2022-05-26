@@ -14,7 +14,7 @@ if __name__ == "__main__":
     parser.add_argument("--env", default="SafetyPointGoal-v0")         # Env name
     parser.add_argument("--base_policy", default="TD3")             # Base Policy name
     parser.add_argument("--use_td3", action="store_true")           # unconstrained RL
-    parser.add_argument("--use_usl", action="store_true")           # Wether to use Unrolling Safety Layer (Zhang 2022)
+    parser.add_argument("--use_usl", action="store_true")           # Wether to use Unrolling Safety Layer
     parser.add_argument("--use_qpsl",action="store_true")           # Wether to use QP Safety Layer (Dalal 2018)
     parser.add_argument("--use_recovery",action="store_true")       # Wether to use Recovery RL     (Thananjeyan 2021)
     parser.add_argument("--use_lag",action="store_true")            # Wether to use Lagrangian Relaxation  (Ray 2019)
